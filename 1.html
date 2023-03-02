@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sum of Two Digits</title>
+    <style>
+      /* CSS styles for the code snippet */
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+    </style>
+    <script>
+      // JavaScript code for copying the code snippet to clipboard
+      function copyCode() {
+        const code = document.getElementById('code-snippet').textContent.trim();
+        navigator.clipboard.writeText(code).then(() => {
+          alert('Code copied to clipboard!');
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Sum of Two Digits</h1>
+    <p>This Java code calculates the sum of two digits:</p>
+    <button onclick="copyCode()">Copy Code</button>
+    <pre id="code-snippet">
+      public class SumOfTwoDigits {
+        public static void main(String[] args) {
+          int num1 = 5;
+          int num2 = 7;
+          int sum = num1 + num2;
+          System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+        }
+      }
+    </pre>
+  </body>
+</html>
